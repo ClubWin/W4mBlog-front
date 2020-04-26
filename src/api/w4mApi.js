@@ -30,4 +30,5 @@ const w4mapi = {
       })
   }
 };
+
 export default w4mapi;

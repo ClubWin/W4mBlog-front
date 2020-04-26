@@ -1,26 +1,24 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <div>
-      {{name}}
-    </div>
-    <router-view/>
+    <ClubWinW4m></ClubWinW4m>
   </div>
 </template>
 
 <script>
+  import ClubWinW4m from './components/ClubWinW4m'
   export default {
-    name: 'ClubWin-w4mfront'
+    name: 'ClubWin-w4mfront',
+    components:{
+      ClubWinW4m
+    }
   }
 </script>
 
 <style>
   #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
+
+  }
+  .el-main,.el-footer{
+    padding: 0;
   }
 </style>
