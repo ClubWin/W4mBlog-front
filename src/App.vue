@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <ClubWinW4m></ClubWinW4m>
+<!--    <ClubWinW4m></ClubWinW4m>-->
+    <router-view></router-view>
   </div>
 </template>
 

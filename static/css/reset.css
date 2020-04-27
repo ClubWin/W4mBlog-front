@@ -172,5 +172,8 @@ body{
  */
 .el-table__header-wrapper{
   background-color: #F2F2F2;
+}
 
+a:hover{
+  color: rgba(255, 64, 0, 0.69);
 }

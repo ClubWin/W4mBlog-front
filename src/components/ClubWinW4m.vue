@@ -7,7 +7,6 @@
       <AdvertisingPage></AdvertisingPage>
      <div class="main-content">
         <router-view>
-
         </router-view>
      </div>
     </el-main>
@@ -46,11 +45,20 @@
     margin: 0 auto;
   }
   .el-header{
-    height: 56px;
     box-shadow: 0 3px 3px #d1d1d1;
+    background: #303643;
+    width: 100%;
+    position: fixed;
+  }
+  .el-main{
+    margin-top: 56px;
   }
   .iActive {
     color: #409EFF;
+  }
+  .el-footer{
+    border-top: #a2a5ac 1px solid;
+    background: #fbfbfb;
   }
 </style>
 

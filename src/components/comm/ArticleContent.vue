@@ -48,6 +48,7 @@
 <style lang="less" scoped>
   .content-warp{
     margin-bottom: 20px;
+    margin-top: 10px;
   }
 
   .content-title{
@@ -72,5 +73,6 @@
   .opts:hover{
     cursor: pointer;
     background: #F2F6FC;
+    border-radius: 5px;
   }
 </style>

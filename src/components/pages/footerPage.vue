@@ -15,14 +15,15 @@
 <style lang="less" scoped>
   .footer-content{
     width: 1200px;
-    height: 100px;
-    background: #F2F6FC;
+    height: 30px;
     color: #606266;
-    margin: 0 auto;
-    padding-left: 20px;
+    margin: 10px auto;
+    font-size: 14px;
+    display: flex;
   }
-  .footer-content:first-child{
+  .footer-content > div{
+    width: 100%;
     line-height: 30px;
-    text-align: left;
+    text-align: center;
   }
 </style>

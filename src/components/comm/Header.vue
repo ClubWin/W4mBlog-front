@@ -15,9 +15,7 @@
       v-model="searchKey">
     </el-input>
     <div class="login-bts">
-      <a href="#">登录</a>
-      <span>|</span>
-      <a href="#">注册</a>
+      <router-link to="/LoginRegistry"><a href="#" class="el-icon-user"> 注册-登录</a></router-link>
     </div>
   </div>
 </template>
@@ -37,6 +35,7 @@
   .el-header-container,.el-main,.el-footer{
     width: 1200px;
     margin: 0 auto;
+    background: #303643;
   }
 
   div > a ,.el-header-container > .el-input{
@@ -44,8 +43,9 @@
   }
 
   .el-header-logo > img{
-    height: 56px;
+    height: 50px;
     width: 60px;
+    border-radius: 50%;
   }
 
   .el-header-logo {
@@ -56,7 +56,7 @@
 
   .el-header-menu{
     float: left;
-    line-height: 56px;
+    line-height: 50px;
     margin: 0 20px;
     display: flex;
     align-items: center;
@@ -64,26 +64,36 @@
   .el-header-logo-text{
     font-size: 30px;
     font-weight: bold;
+    color: #fff;
+    line-height: 56px;
   }
 
   .login-bts{
-    line-height: 56px;
+    line-height: 50px;
     float: right;
+    a{
+      font-size: 16px;
+      color: #a2a5ac;
+    }
   }
 
   .el-header-submenu{
     font-size: 20px;
     margin: 0 10px;
     padding: 0 10px;
+    color:#c9cace;
+    line-height: 56px;
   }
   .el-input{
     float: left;
-    width: 400px;
+    width: 250px;
     line-height: 56px;
   }
-
+  .el-input:focus{
+    width: 400px;
+  }
   .el-header-submenu:hover{
-    color: #d1d1d1;
+    color:#fff;
   }
   .login-bts > a:hover{
     color: red;
