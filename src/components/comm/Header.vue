@@ -1,7 +1,7 @@
 <template>
   <div class="el-header-container">
     <div class="el-header-logo">
-      <img src="../../assets/logo.png" alt="">
+      <img src="../../assets/logo1.png" alt="">
       <span class="el-header-logo-text">ClubWin W4m</span>
     </div>
     <div class="el-header-menu">
@@ -43,9 +43,8 @@
   }
 
   .el-header-logo > img{
-    height: 50px;
-    width: 60px;
-    border-radius: 50%;
+    border-radius: 45%;
+    margin-right: 10px;
   }
 
   .el-header-logo {
@@ -69,7 +68,7 @@
   }
 
   .login-bts{
-    line-height: 50px;
+    line-height: 56px;
     float: right;
     a{
       font-size: 16px;
