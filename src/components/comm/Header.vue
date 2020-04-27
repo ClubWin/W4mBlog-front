@@ -12,7 +12,7 @@
     <el-input
       placeholder="请输入搜索内容"
       suffix-icon="el-icon-search"
-      v-model="input2">
+      v-model="searchKey">
     </el-input>
     <div class="login-bts">
       <a href="#">登录</a>
@@ -24,7 +24,12 @@
 
 <script>
     export default {
-        name: "Header"
+      name: "Header",
+      data () {
+        return {
+          searchKey: ''
+        }
+      }
     }
 </script>
 

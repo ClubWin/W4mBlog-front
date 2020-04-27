@@ -2,6 +2,7 @@
     <div class="container-warp">
       <el-container>
         <el-aside width="150px">
+          <el-divider content-position="left">实时动态</el-divider>
           <a href="#" class="el-icon-s-tools"> 为您推荐</a>
           <a href="#" class="el-icon-s-tools"> 近期热门</a>
           <a href="#" class="el-icon-s-tools"> 最新内容</a>
